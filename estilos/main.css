@@ -1,0 +1,486 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 75%;
+  margin: auto;
+}
+
+.logo img {
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* flex-start
+      center
+      flex-end */
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+ul li a span {
+  color: #6D0AD3;
+}
+
+ul li a span:hover {
+  padding-bottom: 7.5px;
+  border-bottom: 5px solid  #6D0AD3;
+}
+
+ul li a:hover {
+  color: #00CF95;
+}
+
+.banner {
+  margin: auto;
+  padding: 66px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.banner .texto {
+  width: 700px;
+}
+
+.title1 {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.title2 {
+  font-size: 3em;
+  color: #00CF95;
+}
+
+.grosor {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.banner .resume {
+  color: #262626;
+  width: 85%;
+  line-height: 25px;
+  margin: 25px 0;
+  padding: 0 25px;
+  border-left: 5px solid #80E7CA;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a {
+  font-size: 25px;
+  padding: 0px 15px;
+  margin-right: 20px;
+}
+
+.btn-primary {
+  background-color: #6D0AD3;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  text-transform: capitalize;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.img-profile {
+  width: 302px;
+  height: 302px;
+  border-radius: 50%;
+  margin: 30px 0;
+  padding: 20px 30px 20px 10px;
+  background: #D1FFA2;
+}
+
+.flecha {
+  font-size: 60px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #00CF95;
+}
+
+.portafolio {
+  width: 75%;
+  margin: auto;
+}
+
+.portafolio div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.portafolio div img {
+  width: 200px;
+  padding: 18px;
+}
+
+.titulos {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #0098EF;
+  margin-left: 15%;
+  margin-top: 100px;
+}
+
+.habilidades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.caja {
+  width: 300px;
+  height: 225px;
+  background: #00CF95;
+  border: 5px solid #D1FFA2;
+  border-radius: 8px;
+  margin: 30px 15px;
+}
+
+.caja:hover {
+  border: 4px solid #5A0CB0;
+}
+
+.caja img {
+  margin: 15px;
+}
+
+.caja .content {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  top: 60px;
+}
+
+.caja .content div {
+  width: 175px;
+  color: #5A0CB0;
+  height: 50px;
+  background: #D1FFA2;
+  font-weight: 600;
+  padding-right: 10px;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.caja .content div:hover {
+  background: #5A0CB0;
+  color: white;
+}
+
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.blog img {
+  margin: 10px 0px;
+}
+
+.blog .cajagrande {
+  width: 306px;
+  margin: 30px 20px;
+}
+
+.blog .cajagrande .texto h1 {
+  font-size: 28px;
+  line-height: 42px;
+  padding-left: 10px;
+  border-left: 4px solid #5A0CB0;
+}
+
+.blog .cajagrande .texto h1:hover {
+  border-left: 4px solid #5A0CB0;
+}
+
+.blog .cajagrande .texto p {
+  font-size: 13px;
+  line-height: 26px;
+}
+
+.blog .cajachiquita {
+  width: 154px;
+  margin: 30px 5px;
+}
+
+.blog .texto2 {
+  font-size: 15px;
+  border-left: 4px solid #C4C4C4;
+  padding-left: 8px;
+  margin: 10px 0px;
+}
+
+.blog .texto2:hover {
+  border-left: 4px solid #5A0CB0;
+}
+
+.blog .parrafo2 {
+  line-height: 22px;
+}
+
+.comentario p {
+  font-size: 20px;
+}
+
+.comentario .boton {
+  display: inline-block;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.comentario .boton .email {
+  font-size: 12px;
+  border-radius: 8px 0 0 8px;
+  padding: 10px 20px;
+  outline: none;
+  width: 50%;
+  margin: none;
+  border: 1px solid #C0C0C0;
+}
+
+.comentario .boton .suscribete {
+  border-radius: 0 8px 8px 0;
+  padding: 10px 20px;
+  font-size: 12px;
+  background: #6D0AD3;
+  color: white;
+  width: 33%;
+  position: relative;
+  left: -5px;
+  border: 1.4px solid #C0C0C0;
+}
+
+.contact {
+  margin: auto;
+  width: 50%;
+}
+
+.contact2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.contact2 .pequeña {
+  width: 300px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #C0C0C0;
+  border-radius: 8px;
+}
+
+.contact2 .pequeña:hover {
+  border: 1px solid #00CF95;
+}
+
+.contact2 textarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 90%;
+  height: 150px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #C0C0C0;
+  border-radius: 8px;
+}
+
+.contact2 textarea:hover {
+  border: 1px solid #00CF95;
+}
+
+.contact2 .morado {
+  border: 1px solid #6D0AD3;
+}
+
+.enviar {
+  width: 150px;
+  margin: auto;
+  padding: 10px 0px;
+}
+
+.enviar button {
+  width: 100%;
+  padding: 15px 20px;
+  color: white;
+  background: #6D0AD3;
+  border-radius: 8px;
+  border: none;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+footer div {
+  width: 33%;
+}
+
+footer h1 {
+  color: #00CF95;
+  font-size: 24px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+footer ul li {
+  margin: auto;
+}
+
+footer ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin: 0px;
+  padding: 7px;
+  font-size: 15px;
+}
+
+footer .final {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .final .icon a {
+  padding: 0px;
+  margin: 4px;
+}
+
+.corazon {
+  text-align: center;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.corazon i {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */
